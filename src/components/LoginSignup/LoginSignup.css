@@ -29,7 +29,7 @@
     border-radius: 9px;
 }
 
-.inputs {
+form .inputs {
     margin-top: 55px;
     display: flex;
     flex-direction: column;
@@ -75,6 +75,8 @@
 
 .submit-container {
     display: flex;
+    justify-content: center;
+    text-align: center;
     gap: 30px;
     margin: 60px auto;
 }
@@ -96,4 +98,18 @@
 .gray {
     background: #EAEAEA;
     color: #676767;
+}
+
+.alert-success {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.alert-error {
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
